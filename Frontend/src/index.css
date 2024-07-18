@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fontFamily{
+    font-family: "Poppins";
+    font-weight: 300; 
+}
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+.inter2{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+.lilita {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #223994;
+
+  }
+.Dosis{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.product-container {
+    padding: 20px 15px; /* Adjust the padding as needed */
+    box-sizing: border-box;
+}
+
+.slick-slide {
+    margin: 0 0px; /* Adjust the margin as needed */
+
+}
+
+.slick-list {
+    margin: 0 -5px; /* Negative margin to counteract the padding and keep the slider width consistent */
+}
+.slick-next{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+    z-index: 3;
+}
+
+.slick-prev {
+    position: absolute;
+    left: 10px ;
+    width: 30px;
+    height: 30px;
+    z-index: 3;
+}
+
+.slick-next:before{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+ 
+}
+
+.slick-prev:before{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+ 
+}
+
+
+/* .wish{
+    position: absolute;
+    top: 10px;
+    width: 16vw;
+} */
